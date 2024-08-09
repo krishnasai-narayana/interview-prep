@@ -59,7 +59,7 @@
 + [How does BigQuery handle data backup and recovery?](#How-does-BigQuery-handle-data-backup-and-recovery)
 + [Can you explain the concept of materialized views in BigQuery?](#Can-you-explain-the-concept-of-materialized-views-in-BigQuery)
 + [How does BigQuery handle data export to external services?](#How-does-BigQuery-handle-data-export-to-external-services)
-+ [What is the purpose of BigQuery ML's CREATE MODEL statement?](#What-is-the-purpose-of-BigQuery-ML-CREATE-MODEL-statement)
++ [What is the purpose of BigQuery ML CREATE MODEL statement?](#What-is-the-purpose-of-BigQuery-ML-CREATE-MODEL-statement)
 + [Can you explain the concept of geographic data types in BigQuery?](#Can-you-explain-the-concept-of-geographic-data-types-in-BigQuery)
 + [How does BigQuery handle data privacy and security?](#How-does-BigQuery-handle-data-privacy-and-security)
 + [Can you explain the concept of slot reservations in BigQuery?](#Can-you-explain-the-concept-of-slot-reservations-in-BigQuery)
@@ -531,7 +531,7 @@ BigQuery provides various options to export data to external services. You can e
 
 [Table of Contents](#HADOOP)
 
-## What is the purpose of BigQuery ML's CREATE MODEL statement?
+## What is the purpose of BigQuery ML CREATE MODEL statement?
 The CREATE MODEL statement in BigQuery ML is used to create a machine learning model based on a specified algorithm and training data. It allows you to build predictive models directly within BigQuery using SQL syntax.
 
 [Table of Contents](#HADOOP)
