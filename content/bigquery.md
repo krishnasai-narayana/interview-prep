@@ -4,8 +4,8 @@
 + [What is Hadoop Streaming?](#What-is-Hadoop-Streaming)
 + [What is BigQuery, and how does it fit into the data engineering ecosystem?](#What-is-BigQuery-and-how-does-it-fit-into-the-data-engineering-ecosystem)
 + [How does BigQuery handle data storage and processing?](#How-does-BigQuery-handle-data-storage-and-processing)
-+ [What are the key advantages of using BigQuery?](#What are the key advantages of using BigQuery?)
 + [What are the key advantages of using BigQuery?](#What-are-the-key-advantages-of-using-BigQuery)
++ [What is the difference between BigQuery and traditional relational databases?](#What-is-the-difference-between-BigQuery-and-traditional-relational-databases)
 + [What are the default port numbers on which  Nodes run in Hadoop?](#What-are-the-default-port-numbers-on-which-Nodes-run-in-Hadoop)
 + [How will you disable a Block Scanner on HDFS DataNode?](#How-will-you-disable-a-Block-Scanner-on-HDFS-DataNode)
 + [How will you get the distance between two nodes in Apache Hadoop?](#How-will-you-get-the-distance-between-two-nodes-in-Apache-Hadoop)
@@ -546,7 +546,7 @@ Some advantages of BigQuery include:
 
 [Table of Contents](#HADOOP)
 
-## What are the key advantages of using BigQuery?
-Some advantages of BigQuery include:
-+ Scalability: It can handle massive datasets and query volumes.
-+ Cost-effectiveness: Users only pay for the queries and storage they use.
+## What is the difference between BigQuery and traditional relational databases?
+BigQuery is a cloud-based, columnar data warehouse, whereas traditional relational databases are usually on-premises and row-based. BigQuery offers near-infinite scalability, while traditional databases have limitations based on hardware and storage capacity.
+
+[Table of Contents](#HADOOP)
