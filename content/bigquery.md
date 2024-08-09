@@ -4,7 +4,7 @@
 + [What is Hadoop Streaming?](#What-is-Hadoop-Streaming)
 + [What is BigQuery, and how does it fit into the data engineering ecosystem?](#What-is-BigQuery-and-how-does-it-fit-into-the-data-engineering-ecosystem)
 + [How does BigQuery handle data storage and processing?](#How-does-BigQuery-handle-data-storage-and-processing)
-+ [What do you know about Block and Block scanner in HDFS?](#What-do-you-know-about-Block-and-Block-scanner-in-HDFS)
++ [What are the key advantages of using BigQuery?](What-are-the-key-advantages-of-using-BigQuery)
 + [What are the default port numbers on which  Nodes run in Hadoop?](#What-are-the-default-port-numbers-on-which-Nodes-run-in-Hadoop)
 + [How will you disable a Block Scanner on HDFS DataNode?](#How-will-you-disable-a-Block-Scanner-on-HDFS-DataNode)
 + [How will you get the distance between two nodes in Apache Hadoop?](#How-will-you-get-the-distance-between-two-nodes-in-Apache-Hadoop)
@@ -535,5 +535,12 @@ BigQuery is a fully managed, serverless data warehouse solution provided by Goog
 BigQuery uses a distributed architecture for data storage and processing. It separates storage and compute, allowing users to scale each independently. Data is stored in Capacitor, a proprietary storage system, while processing is handled by Dremel, a distributed query execution engine.
 
 [Table of Contents](#HADOOP)
+
+## What are the key advantages of using BigQuery?
+Some advantages of BigQuery include:
+•	Scalability: It can handle massive datasets and query volumes.
+•	Cost-effectiveness: Users only pay for the queries and storage they use.
+•	Serverless architecture: No infrastructure management is required.
+•	Integration with other GCP services: BigQuery can easily integrate with other GCP tools for data ingestion and processing.
 
 [Table of Contents](#HADOOP)
