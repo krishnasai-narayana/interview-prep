@@ -203,6 +203,31 @@
 + [Explain the significance of ssh and what is the port on which port does ssh work and why do we need password in ssh local host?](#Explain-the-significance-of-ssh-and-what-is-the-port-on-which-port-does-ssh-work-and-why-do-we-need-password-in-ssh-local-host)
 + [What is ssh and explain in detail about ssh communication between masters and the slaves?](#What-is-ssh-and-explain-in-detail-about-ssh-communication-between-masters-and-the-slaves)
 + [Can You Tell Is What Will Happen To A NameNode and When Job Tracker Is Not Up And Running?](#Can-you-tell-is-what-will-happen-to-a-NameNode-and-when-Job-tracker-is-not-up-and-running)
++ [How does BigQuery handle data storage and processing?](#How-does-BigQuery-handle-data-storage-and-processing)
++ [What are the key advantages of using BigQuery?](#What-are-the-key-advantages-of-using-BigQuery)
++ [What is the difference between BigQuery and traditional relational databases?](#What-is-the-difference-between-BigQuery-and-traditional-relational-databases)
++ [Explain the concept of partitioning in BigQuery.](#Explain-the-concept-of-partitioning-in-BigQuery)
++ [What is clustering, and how does it optimize query performance?](#What-is-clustering,-and-how-does-it-optimize-query-performance)
++ [How do you load data into BigQuery?](#How-do-you-load-data-into-BigQuery)
++ [What are the different data export options in BigQuery?](#What-are-the-different-data-export-options-in-BigQuery)
++ [Explain the concept of federated queries in BigQuery.](#Explain-the-concept-of-federated-queries-in-BigQuery)
++ [What are the best practices for optimizing query performance in BigQuery?](#What-are-the-best-practices-for-optimizing-query-performance-in-BigQuery)
++ [How does BigQuery handle data security?](#How-does-BigQuery-handle-data-security)
++ [What is the difference between a table and a view in BigQuery?](#What-is-the-difference-between-a-table-and-a-view-in-BigQuery)
++ [Explain the concept of nested and repeated fields in BigQuery.](#Explain-the-concept-of-nested-and-repeated-fields-in-BigQuery)
++ [How can you schedule and automate jobs in BigQuery?](#How-can-you-schedule-and-automate-jobs-in-BigQuery)
++ [What is the role of BigQuery Data Transfer Service?](#What-is-the-role-of-BigQuery-Data-Transfer-Service)
++ [How does BigQuery handle data ingestion from streaming sources?](#How-does-BigQuery-handle-data-ingestion-from-streaming-sources)
++ [What are the limitations or constraints of using BigQuery?](#What-are-the-limitations-or-constraints-of-using-BigQuery)
++ [How can you monitor and optimize BigQuery costs?](#How-can-you-monitor-and-optimize-BigQuery-costs)
++ [Explain the difference between BigQuery slots and slots reservation.](#Explain-the-difference-between-BigQuery-slots-and-slots-reservation)
++ [Can you share your experience with implementing data pipelines in BigQuery?](#Can-you-share-your-experience-with-implementing-data-pipelines-in-BigQuery)
++ [What is the difference between a view and a materialized view in BigQuery?](#What-is-the-difference-between-a-view-and-a-materialized-view-in-BigQuery)
++ [How does BigQuery handle data partitioning and clustering?](#How-does-BigQuery-handle-data-partitioning-and-clustering)
++ [Can you explain the concept of data sharding in BigQuery?](#Can-you-explain-the-concept-of-data-sharding-in-BigQuery)
++ [How does BigQuery handle schema changes for large tables?](#How-does-BigQuery-handle-schema-changes-for-large-tables)
++ [What are the benefits of using partitioned tables in BigQuery?](#What-are-the-benefits-of-using-partitioned-tables-in-BigQuery)
+![image](https://github.com/user-attachments/assets/96ad66f6-ba3a-4b43-adc3-1f03fbeb3dfe)
 
 
 
@@ -524,5 +549,17 @@ Hadoop provides a utility called Distributed Cache to improve the performance of
 
 ## How will you synchronize the changes made to a file in Distributed Cache in Hadoop?
 It is a trick question. In Distributed Cache, it is not allowed to make any changes to a file. This is a mechanism to cache read-only data across multiple nodes.Therefore, it is not possible to update a cached file or run any synchronization in Distributed Cache.
+
+[Table of Contents](#HADOOP)
+
+## What is BigQuery, and how does it fit into the data engineering ecosystem?
+BigQuery is a fully managed, serverless data warehouse solution provided by Google Cloud Platform (GCP). It allows users to analyze and query large datasets using SQL, with high scalability and performance.
+
+[Table of Contents](#HADOOP)
+ 
+## How does BigQuery handle data storage and processing?
+BigQuery uses a distributed architecture for data storage and processing. It separates storage and compute, allowing users to scale each independently. Data is stored in Capacitor, a proprietary storage system, while processing is handled by Dremel, a distributed query execution engine.
+
+[Table of Contents](#HADOOP)
 
 [Table of Contents](#HADOOP)
