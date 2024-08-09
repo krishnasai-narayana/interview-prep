@@ -1,8 +1,8 @@
-# HADOOP
+# BigQuery
 + [What are the main components of a Hadoop Application?](#What-are-the-main-components-of-a-Hadoop-Application)
 + [What is the core concept behind Apache Hadoop framework?](#What-is-the-core-concept-behind-Apache-Hadoop-framework)
 + [What is Hadoop Streaming?](#What-is-Hadoop-Streaming)
-+ [What is the difference between Nodes in HDFS?](#What-is-the-difference-between-Nodes-in-HDFS)
++ [What is BigQuery, and how does it fit into the data engineering ecosystem?](#What-is-BigQuery-and-how-does-it-fit-into-the-data-engineering-ecosystem)
 + [What is the optimum hardware configuration to run Apache Hadoop?](#What-is-the-optimum-hardware-configuration-to-run-Apache-Hadoop)
 + [What do you know about Block and Block scanner in HDFS?](#What-do-you-know-about-Block-and-Block-scanner-in-HDFS)
 + [What are the default port numbers on which  Nodes run in Hadoop?](#What-are-the-default-port-numbers-on-which-Nodes-run-in-Hadoop)
@@ -241,11 +241,8 @@ The differences between NameNode, BackupNode and Checkpoint NameNode are as foll
 
 [Table of Contents](#HADOOP)
 
-## What is the optimum hardware configuration to run Apache Hadoop?
-To run Apache Hadoop jobs, it is recommended to use dual core machines or dual processors. There should be 4GB or 8GB RAM with the processor with Error-correcting code (ECC) memory.
-    Without ECC memory, there is high chance of getting checksum errors.
-    For storage high capacity SATA drives (around 7200 rpm) should be used in Hadoop cluster.
-    Around 10GB bandwidth Ethernet networks are good for Hadoop.
+## What is BigQuery, and how does it fit into the data engineering ecosystem?
+BigQuery is a fully managed, serverless data warehouse solution provided by Google Cloud Platform (GCP). It allows users to analyze and query large datasets using SQL, with high scalability and performance.
 
 [Table of Contents](#HADOOP)
 
