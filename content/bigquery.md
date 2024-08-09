@@ -538,9 +538,9 @@ BigQuery uses a distributed architecture for data storage and processing. It sep
 
 ## What are the key advantages of using BigQuery?
 Some advantages of BigQuery include:
-•	Scalability: It can handle massive datasets and query volumes.
-•	Cost-effectiveness: Users only pay for the queries and storage they use.
-•	Serverless architecture: No infrastructure management is required.
-•	Integration with other GCP services: BigQuery can easily integrate with other GCP tools for data ingestion and processing.
++ Scalability: It can handle massive datasets and query volumes.
++ Cost-effectiveness: Users only pay for the queries and storage they use.
++ Serverless architecture: No infrastructure management is required.
++ Integration with other GCP services: BigQuery can easily integrate with other GCP tools for data ingestion and processing.
 
 [Table of Contents](#HADOOP)
