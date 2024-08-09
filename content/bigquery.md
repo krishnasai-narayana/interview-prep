@@ -1,4 +1,4 @@
-# BigQuery
+# Hadoop
 + [What are the main components of a Hadoop Application?](#What-are-the-main-components-of-a-Hadoop-Application)
 + [What is the core concept behind Apache Hadoop framework?](#What-is-the-core-concept-behind-Apache-Hadoop-framework)
 + [What is Hadoop Streaming?](#What-is-Hadoop-Streaming)
