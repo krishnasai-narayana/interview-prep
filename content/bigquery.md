@@ -17,7 +17,7 @@
 + [How can you schedule and automate jobs in BigQuery?](#How-can-you-schedule-and-automate-jobs-in-BigQuery)
 + [What is the role of BigQuery Data Transfer Service?](#What-is-the-role-of-BigQuery-Data-Transfer-Service)
 + [How does BigQuery handle data ingestion from streaming source?](#How-does-BigQuery-handle-data-ingestion-from-streaming-source)
-+ [What would happen if NameNode crashes in a HDFS cluster?](#What-would-happen-if-NameNode-crashes-in-a-HDFS-cluster)
++ [What are the limitations or constraints of using BigQuery?](#What-are-the-limitations-or-constraints-of-using-BigQuery)
 + [What are the main functions of Secondary NameNode?](#What-are-the-main-functions-of-Secondary-NameNode)
 + [What happens if HDFS file is set with replication factor of 1 and DataNode crashes?](#What-happens-if-HDFS-file-is-set-with-replication-factor-of-1-and-DataNode-crashes)
 + [What is the meaning of Rack Awareness in Hadoop?](#What-is-the-meaning-of-Rack-Awareness-in-Hadoop)
