@@ -262,6 +262,8 @@ BigQuery provides several options for exporting data, such as:
  
 ## Explain the concept of federated queries in BigQuery.
 Federated queries allow users to query data stored outside of BigQuery, such as in Google Sheets or Cloud SQL, directly from within BigQuery. It enables users to combine and analyze data from multiple sources without having to move or replicate it.
+
+[Table of Contents](#HADOOP)
  
 ## What are the best practices for optimizing query performance in BigQuery?
 Some best practices for query performance optimization in BigQuery include:
@@ -297,7 +299,9 @@ BigQuery provides several ways to schedule and automate jobs, including:
 + BigQuery scheduled queries: You can schedule queries to run at specified intervals using the BigQuery web UI or API.
 + Cloud Scheduler: Use Cloud Scheduler to trigger queries at specific times or intervals.
 + Cloud Functions: You can create Cloud Functions that are triggered by events and execute BigQuery jobs.
- 
+
+[Table of Contents](#HADOOP)
+
 ## What is the role of BigQuery Data Transfer Service?
 BigQuery Data Transfer Service allows you to automate and schedule data transfers from external data sources, such as Google Ads or YouTube, into BigQuery. It simplifies the process of loading data into BigQuery from various platforms.
 
@@ -400,7 +404,9 @@ You can export BigQuery query results to a file by specifying the destination fi
 
 ## What is the purpose of the BigQuery Data Transfer Service?
 The BigQuery Data Transfer Service allows you to automate and schedule data transfers from various external data sources, such as Google Marketing Platform or SaaS applications, into BigQuery, simplifying the process of loading data into BigQuery.
- 
+
+[Table of Contents](#HADOOP)
+
 ## Can you explain the concept of streaming inserts in BigQuery?
 Streaming inserts in BigQuery enable near real-time data ingestion by allowing you to push individual records or small batches of data directly into BigQuery through the streaming API. The data is immediately available for querying.
 
@@ -488,10 +494,14 @@ Wildcard tables in BigQuery allow you to query multiple tables that match a spec
 
 ## What are the different data ingestion options in BigQuery?
 BigQuery provides several data ingestion options, including batch loading using the BigQuery web UI, command-line tools like bq, or API calls. It also supports real-time data ingestion through the streaming API or data transfer services for specific data sources.
+
+[Table of Contents](#HADOOP)
  
-How does BigQuery handle data deduplication during batch loading?
+## How does BigQuery handle data deduplication during batch loading?
 BigQuery does not provide built-in data deduplication during batch loading. However, you can preprocess your data to remove duplicates using data cleaning techniques or leverage external data processing tools before loading the data into BigQuery.
- 
+
+[Table of Contents](#HADOOP)
+
 ## Can you explain the concept of clustering keys in BigQuery?
 Clustering keys in BigQuery determine how data is physically organized within partitions. They are used to define the order in which data is stored and improve query performance by allowing the query engine to skip irrelevant data during execution.
 
@@ -579,14 +589,17 @@ BigQuery is designed for eventual consistency in distributed queries, meaning th
 
 ## Can you explain the concept of BigQuery's query cache?
 The query cache in BigQuery stores the results of recent queries and can serve subsequent identical queries directly from the cache, reducing the need for reprocessing. The cache is automatically managed by BigQuery and helps improve query performance and reduce costs.
+
 [Table of Contents](#HADOOP)
 
 ## What is the purpose of the BigQuery Data Transfer Service for SaaS?
 The BigQuery Data Transfer Service for SaaS enables automatic data transfers from supported SaaS applications, such as Salesforce or Marketo, into BigQuery. It simplifies the process of extracting and loading data from these sources for analysis and reporting.
+
 [Table of Contents](#HADOOP)
 
 ## How can you monitor and troubleshoot streaming data pipelines in BigQuery?
 To monitor and troubleshoot streaming data pipelines in BigQuery, you can review the streaming buffer statistics, monitor streaming API errors and quotas, use BigQuery's monitoring and logging integrations, and leverage Cloud Monitoring and Cloud Logging for more detailed analysis.
+
 [Table of Contents](#HADOOP)
 
 ## Can you explain the concept of BigQuery federated queries?
@@ -596,10 +609,12 @@ BigQuery federated queries allow you to query data stored in external sources, s
 
 ## What is the purpose of the BigQuery Data QnA service?
 The BigQuery Data QnA service is a natural language interface that allows users to query and explore data in BigQuery using conversational language. It leverages machine learning techniques to understand user queries and provide relevant results.
+
 [Table of Contents](#HADOOP)
 
 ## Can you explain the concept of BigQuery's workload management?
 Workload management in BigQuery allows you to allocate and prioritize resources for different types of queries or workloads. You can define query priorities, set concurrency limits, and manage resources to ensure optimal performance and resource allocation.
+
 [Table of Contents](#HADOOP)
 
 ## How does BigQuery handle data skew and hotspots in queries?
