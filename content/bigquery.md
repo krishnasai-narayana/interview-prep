@@ -203,12 +203,8 @@
 + [Can You Tell Is What Will Happen To A NameNode and When Job Tracker Is Not Up And Running?](#Can-you-tell-is-what-will-happen-to-a-NameNode-and-when-Job-tracker-is-not-up-and-running)
 
 
-## What are the main components of a Hadoop Application?
-Over the time, there are various forms in which a Hadoop application is defined. But in most of the cases there are following four core components of Hadoop application:
-+ HDFS: This is the file system in which Hadoop data is stored. It is a distributed file system with very high bandwidth.
-+ Hadoop Common_: This is common set of libraries and utilities used by Hadoop. 
-+ Hadoop MapReduce: This is based on MapReduce algorithm for providing large-scale data processing.
-+ Hadoop YARN: This is used for resource management in a Hadoop cluster. It can also schedule tasks for users.
+## What is BigQuery, and how does it fit into the data engineering ecosystem?
+BigQuery is a fully managed, serverless data warehouse solution provided by Google Cloud Platform (GCP). It allows users to analyze and query large datasets using SQL, with high scalability and performance.
 
 [Table of Contents](#HADOOP)
  
