@@ -18,20 +18,20 @@
 + [What is the role of BigQuery Data Transfer Service?](#What-is-the-role-of-BigQuery-Data-Transfer-Service)
 + [How does BigQuery handle data ingestion from streaming sources?](#How-does-BigQuery-handle-data-ingestion-from-streaming-sources)
 + [What are the limitations or constraints of using BigQuery?](#What-are-the-limitations-or-constraints-of-using-BigQuery)
-+ [What are the main functions of Secondary NameNode?](#What-are-the-main-functions-of-Secondary-NameNode)
-+ [What happens if HDFS file is set with replication factor of 1 and DataNode crashes?](#What-happens-if-HDFS-file-is-set-with-replication-factor-of-1-and-DataNode-crashes)
-+ [What is the meaning of Rack Awareness in Hadoop?](#What-is-the-meaning-of-Rack-Awareness-in-Hadoop)
-+ [How will you check if a file exists in HDFS?](#How-will-you-check-if-a-file-exists-in-HDFS)
-+ [Why do we use fsck command in HDFS?](#Why-do-we-use-fsck-command-in-HDFS)
-+ [What will happen when NameNode is down and a user submits a new job?](#What-will-happen-when-NameNode-is-down-and-a-user-submits-a-new-job)
-+ [What are the core methods of a Reducer in Hadoop?](#What-are-the-core-methods-of-a-Reducer-in-Hadoop)
-+ [What are the primary phases of a Reducer in Hadoop?](#What-are-the-primary-phases-of-a-Reducer-in-Hadoop)
-+ [What is the use of Context object in Hadoop?](#What-is-the-use-of-Context-object-in-Hadoop)
-+ [How does partitioning work in Hadoop?](#How-does-partitioning-work-in-Hadoop)
-+ [What is a Combiner in Hadoop?](#What-is-a-Combiner-in-Hadoop)
-+ [What is the default replication factor in HDFS?](#What-is-the-default-replication-factor-in-HDFS)
-+ [How much storage is allocated by HDFS for storing a file of 25 MB size?](#How-much-storage-is-allocated-by-HDFS-for-storing-a-file-of-25-MB-size)
-+ [Why does HDFS store data in Block structure?](#Why-does-HDFS-store-data-in-Block-structure)
++ [How can you monitor and optimize BigQuery costs?](#How-can-you-monitor-and-optimize-BigQuery-costs)
++ [Explain the difference between BigQuery slots and slots reservation](#Explain-the-difference-between-BigQuery-slots-and-slots-reservation)
++ [Can you share your experience with implementing data pipelines in BigQuery?](#Can-you-share-your-experience-with-implementing-data-pipelines-in-BigQuery)
++ [What is the difference between a view and a materialized view in BigQuery?](#What-is-the-difference-between-a-view-and-a-materialized-view-in-BigQuery)
++ [How does BigQuery handle data partitioning and clustering?](#How-does-BigQuery-handle-data-partitioning-and-clustering)
++ [Can you explain the concept of data sharding in BigQuery?](#Can-you-explain-the-concept-of-data-sharding-in-BigQuery)
++ [How does BigQuery handle schema changes for large tables?](#How-does-BigQuery-handle-schema-changes-for-large-tables)
++ [What are the benefits of using partitioned tables in BigQuery?](#What-are-the-benefits-of-using-partitioned-tables-in-BigQuery)
++ [How can you control access and permissions in BigQuery?](#How-can-you-control-access-and-permissions-in-BigQuery)
++ [What is the role of service accounts in BigQuery?](#What-is-the-role-of-service-accounts-in-BigQuery)
++ [Can you explain the concept of slots in BigQuery?](#Can-you-explain-the-concept-of-slots-in-BigQuery)
++ [What is the purpose of BigQuery reservations?](#What-is-the-purpose-of-BigQuery-reservations)
++ [How can you optimize query performance in BigQuery?](#How-can-you-optimize-query-performance-in-BigQuery)
++ [How does BigQuery handle data encryption?](#How-does-BigQuery-handle-data-encryption)
 + [How will you create a custom Partitioner in a Hadoop job?](#How-will-you-create-a-custom-Partitioner-in-a-Hadoop-job)
 + [What is a Checkpoint node in HDFS?](#What-is-a-Checkpoint-node-in-HDFS)
 + [What is a Backup Node in HDFS?](#What-is-a-Backup-Node-in-HDFS)
@@ -318,7 +318,9 @@ Some limitations of using BigQuery include:
 + DML operations: BigQuery does not support traditional update and delete operations on tables.
 + Data consistency: BigQuery is designed for analytical workloads and does not provide strong transactional consistency.
 + Schema changes: Modifying the schema of a large table can be time-consuming and requires careful planning.
- 
+
+[Table of Contents](#HADOOP)
+
 ## How can you monitor and optimize BigQuery costs?
 To monitor and optimize BigQuery costs, you can:
 + Use BigQuery's query history and explain functionality to analyze query costs.
@@ -326,7 +328,9 @@ To monitor and optimize BigQuery costs, you can:
 + Set up budgets and alerts to track costs.
 + Utilize BigQuery's slot reservations for more predictable pricing.
 + Optimize data storage by removing unused tables and partitions.
- 
+
+[Table of Contents](#HADOOP)
+
 ## Explain the difference between BigQuery slots and slots reservation.
 In BigQuery, slots represent the computational resources allocated to execute queries. Slots are used to measure and bill for query processing. Slot reservations allow you to reserve a specific number of slots for your project, providing more predictable and cost-effective query execution.
  
