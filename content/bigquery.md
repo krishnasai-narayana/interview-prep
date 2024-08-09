@@ -7,16 +7,16 @@
 + [What are the key advantages of using BigQuery?](#What-are-the-key-advantages-of-using-BigQuery)
 + [What is the difference between BigQuery and traditional relational databases?](#What-is-the-difference-between-BigQuery-and-traditional-relational-databases)
 + [Explain the concept of partitioning in BigQuery?](#Explain-the-concept-of-partitioning-in-BigQuery)
-+ [How will you disable a Block Scanner on HDFS DataNode?](#How-will-you-disable-a-Block-Scanner-on-HDFS-DataNode)
-+ [How will you get the distance between two nodes in Apache Hadoop?](#How-will-you-get-the-distance-between-two-nodes-in-Apache-Hadoop)
-+ [Why do we use commodity hardware in Hadoop?](#Why-do-we-use-commodity-hardware-in-Hadoop)
-+ [How does inter cluster data copying works in Hadoop?](#How-does-inter-cluster-data-copying-works-in-Hadoop)
-+ [How can we update a file at an arbitrary location in HDFS?](#How-can-we-update-a-file-at-an-arbitrary-location-in-HDFS)
-+ [What is Replication factor in HDFS?](#What-is-Replication-factor-in-HDFS)
-+ [What is the difference between NAS and DAS in Hadoop cluster?](#What-is-the-difference-between-NAS-and-DAS-in-Hadoop-cluster)
-+ [What are the two messages that NameNode receives from DataNode?](#What-are-the-two-messages-that-NameNode-receives-from-DataNode)
-+ [How does indexing work in Hadoop?](#How-does-indexing-work-in-Hadoop)
-+ [What data is stored in a HDFS NameNode?](#What-data-is-stored-in-a-HDFS-NameNode)
++ [How do you load data into BigQuery?](#How-do-you-load-data-into-BigQuery)
++ [What are the different data export options in BigQuery?](#What-are-the-different-data-export-options-in-BigQuery)
++ [Explain the concept of federated queries in BigQuery.](#Explain-the-concept-of-federated-queries-in-BigQuery)
++ [What are the best practices for optimizing query performance in BigQuery?](#What-are-the-best-practices-for-optimizing-query-performance-in-BigQuery)
++ [How does BigQuery handle data security??](#How-does-BigQuery-handle-data-security)
++ [What is the difference between a table and a view in BigQuery?](#What-is-the-difference-between-a-table-and-a-view-in-BigQuery)
++ [Explain the concept of nested and repeated fields in BigQuery](#Explain-the-concept-of-nested-and-repeated-fields-in-BigQuery)
++ [How can you schedule and automate jobs in BigQuery?](#How-can-you-schedule-and-automate-jobs-in-BigQuery)
++ [What is the role of BigQuery Data Transfer Service?](#What-is-the-role-of-BigQuery-Data-Transfer-Service)
++ [How does BigQuery handle data ingestion from streaming source?](#How-does-BigQuery-handle-data-ingestion-from-streaming-source)
 + [What would happen if NameNode crashes in a HDFS cluster?](#What-would-happen-if-NameNode-crashes-in-a-HDFS-cluster)
 + [What are the main functions of Secondary NameNode?](#What-are-the-main-functions-of-Secondary-NameNode)
 + [What happens if HDFS file is set with replication factor of 1 and DataNode crashes?](#What-happens-if-HDFS-file-is-set-with-replication-factor-of-1-and-DataNode-crashes)
@@ -246,9 +246,9 @@ Clustering in BigQuery involves organizing data within partitions based on the v
  
 ## How do you load data into BigQuery?
 Data can be loaded into BigQuery using various methods, including:
-•	Batch loading: Using the BigQuery web UI, command-line tools like bq, or API calls.
-•	Streaming: Pushing individual records or small batches in real-time using the BigQuery streaming API.
-•	Data transfer: Using services like Cloud Storage transfer service or Dataflow to load data into BigQuery.
++ Batch loading: Using the BigQuery web UI, command-line tools like bq, or API calls.
++ Streaming: Pushing individual records or small batches in real-time using the BigQuery streaming API.
++ Data transfer: Using services like Cloud Storage transfer service or Dataflow to load data into BigQuery.
 
 [Table of Contents](#HADOOP)
 
