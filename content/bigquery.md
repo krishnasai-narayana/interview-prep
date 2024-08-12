@@ -79,7 +79,7 @@
 + [Can you explain the concept of BigQuery's billing export?](#Can-you-explain-the-concept-of-BigQuerys-billing-export)
 + [How can you automate BigQuery tasks using Cloud Functions?](#How-can-you-automate-BigQuery-tasks-using-Cloud-Functions)
 + [What is bigquery architecture?](#What-is-bigquery-architecture)
-+ [How to do value level comparison?](#How-to-do-value-level-comparison)
++ [Query optimization in bigquery?](#Query-optimization-in-bigquery)
 + [What is setup and clean up methods?](#What-is-setup-and-clean-up-methods)
 + [How many slots allocate for each task?](#How-many-slots-allocate-for-each-task)
 + [Why TaskTracker launch child Jvm to do a task? Why not use Existent Jvm?](#Why-Tasktracker-launch-child-Jvm-to-do-a-task)
@@ -636,5 +636,15 @@ Cloud Functions, a serverless compute platform, can be used to automate BigQuery
 
 ## What is bigquery architecture?
 ![image](https://github.com/user-attachments/assets/1a47ec61-41db-4620-9b50-1a26c9ac20bb)
+
+[Table of Contents](#HADOOP)
+
+## Query optimization in bigquery
++ Partitioning: Divide large tables into smaller, manageable segments to improve query performance and reduce costs.
++ Clustering: Organize data within partitions to improve read efficiency, especially for queries with filtering on clustered columns.
++ Use efficient SQL: Write SQL queries that minimize data scans, such as using appropriate WHERE calues and selecting only necessary columns
++ Avoid Cross Joins: Minimize the use of cross joins, which can lead to large intermediate results.
++ Materialized views: Use materialized views to precompute and store the results of complex queries, improving performance for frequent queries
++ Cache Results: Leverage Bigquery's automatic caching of query results to reduce execution time for repeated queries
 
 [Table of Contents](#HADOOP)
