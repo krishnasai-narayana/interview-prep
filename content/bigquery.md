@@ -636,6 +636,5 @@ Cloud Functions, a serverless compute platform, can be used to automate BigQuery
 
 ## What is bigquery architecture?
 ![image](https://github.com/user-attachments/assets/1a47ec61-41db-4620-9b50-1a26c9ac20bb)
-![BQ_Explained_2 max-900x900](https://github.com/user-attachments/assets/cb06a182-ef18-4829-9cf9-5b1aaedf618d)
 
 [Table of Contents](#HADOOP)
