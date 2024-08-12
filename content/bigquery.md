@@ -78,7 +78,7 @@
 + [What is the purpose of the BigQuery ML EVALUATE statement?](#What-is-the-purpose-of-the-BigQuery-ML-EVALUATE-statement)
 + [Can you explain the concept of BigQuery's billing export?](#Can-you-explain-the-concept-of-BigQuerys-billing-export)
 + [How can you automate BigQuery tasks using Cloud Functions?](#How-can-you-automate-BigQuery-tasks-using-Cloud-Functions)
-+ [What is chain Mapper?](#What-is-chain-Mapper)
++ [What is bigquery architecture?](#What-is-bigquery-architecture)
 + [How to do value level comparison?](#How-to-do-value-level-comparison)
 + [What is setup and clean up methods?](#What-is-setup-and-clean-up-methods)
 + [How many slots allocate for each task?](#How-many-slots-allocate-for-each-task)
@@ -631,5 +631,11 @@ Billing export in BigQuery allows you to export detailed billing data to Google 
 
 ## How can you automate BigQuery tasks using Cloud Functions?
 Cloud Functions, a serverless compute platform, can be used to automate BigQuery tasks by triggering functions based on events, such as new data arriving in a storage bucket or a schedule. Cloud Functions can execute BigQuery queries or perform other actions.
+
+[Table of Contents](#HADOOP)
+
+## What is bigquery architecture?
+![image](https://github.com/user-attachments/assets/1a47ec61-41db-4620-9b50-1a26c9ac20bb)
+![BQ_Explained_2 max-900x900](https://github.com/user-attachments/assets/cb06a182-ef18-4829-9cf9-5b1aaedf618d)
 
 [Table of Contents](#HADOOP)
