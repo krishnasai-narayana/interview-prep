@@ -1,4 +1,4 @@
-# Hadoop
+# Big Query
 + [What is BigQuery, and how does it fit into the data engineering ecosystem?](#What-is-BigQuery-and-how-does-it-fit-into-the-data-engineering-ecosystem)
 + [How does BigQuery handle data storage and processing?](#How-does-BigQuery-handle-data-storage-and-processing)
 + [What are the key advantages of using BigQuery?](#What-are-the-key-advantages-of-using-BigQuery)
